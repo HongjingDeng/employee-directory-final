@@ -1,5 +1,20 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## User Story
+
+* As a user, I want to be able to view my entire employee directory at once so that I have quick access to their information.
+
+### Deployed Page
+(https://hongjingdeng.github.io/employee-directory-final)
+
+## Business Context
+
+An employee or manager would benefit greatly from being able to view non-sensitive data about other employees. It would be particularly helpful to be able to filter employees by name.
+
+## Screenshots
+![Search Name](./public/images/name.png)
+![Sort LastName](./public/images/sort.png)
+
 ## Available Scripts
 
 In the project directory, you can run:
