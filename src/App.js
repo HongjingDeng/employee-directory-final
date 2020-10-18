@@ -25,6 +25,7 @@ class App extends Component {
     this.setState({
       search: e.target.value
     });
+    console.log(e.target.value)
   }
 
   cancelSubmit = (e) => {
@@ -68,17 +69,17 @@ class App extends Component {
             onChange={this.changeSearch}
             placeholder="Search By Name"
           />
-          <input
+          {/* <input
             className="input"
             type="text"
             value={this.state.search}
             onChange={this.changeSearch}
             placeholder="Search By Gender"
-          />
-          <button className="btn btn-primary" onClick={this.sortAZ}>
+          /> */}
+          <span>  </span><button className="btn btn-primary" onClick={this.sortAZ}>
             Sort Last Name A to Z
           </button>
-          <button className="btn btn-danger" onClick={this.sortZA}>
+          <span>  </span><button className="btn btn-danger" onClick={this.sortZA}>
             Sort Last Name Z to A
 
           </button>
